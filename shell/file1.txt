@@ -20,3 +20,6 @@ How to identify the number of params that has been sent to shell script?
 $#
 
 Command to delete empty line in a file? Sed  ‘/^$/d’ test.sh  Sed -i  ‘/^$/d’ test.sh
+
+
+=----------------
