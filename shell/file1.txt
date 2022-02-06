@@ -1,0 +1,22 @@
+Linux Commands/Shell Scripting Questions :
+
+Command to find empty files in a given directory?  
+find . -empty
+
+Commands you will use it for configuring ssh connectivity between 2 machines and what files will be present in .ssh folder?
+Ssh-copy-id 
+
+Command to get load average ?
+top
+Need to identify IP addresses in log file and count of ip addresses in log file?
+grep -E -o "([0-9]{1,3}[.]){3}[0-9]{1,3}" logfile | sort | uniq -c | sort -nr
+
+What is command for checking the running process? how to get PID of process?
+ps -eaf
+
+Command to get whether certain port is listing or not?
+netstat -tunlp
+How to identify the number of params that has been sent to shell script?
+$#
+
+Command to delete empty line in a file? Sed  ‘/^$/d’ test.sh  Sed -i  ‘/^$/d’ test.sh
